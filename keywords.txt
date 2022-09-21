@@ -1,20 +1,18 @@
 #######################################
-# Syntax Coloring Map For EspMQTTClient
+# Syntax Coloring Map For MQTTClientSecure
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-EspMQTTClient	KEYWORD1
+MQTTClientSecure	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
 enableDebuggingMessages KEYWORD2
-enableHTTPWebUpdater    KEYWORD2
-enableHTTPWebUpdater    KEYWORD2
 enableMQTTPersistence   KEYWORD2
 enableLastWillMessage   KEYWORD2
 enableDrasticResetOnConnectionFailures KEYWORD2
@@ -28,6 +26,8 @@ subscribe               KEYWORD2
 unsubscribe             KEYWORD2
 setKeepAlive            KEYWORD2
 setMqttClientName       KEYWORD2
+setCACert               KEYWORD2
+setInsecure             KEYWORD2
 
 executeDelayed          KEYWORD2
 
